@@ -42,7 +42,7 @@ Module.register("quotes", {
 	// Override dom generator.
 	getDom: function () {
 		const wrapper = document.createElement('div');
-		wrapper.className = this.config.classes ? this.config.classes : "thin large bright pre-line";
+		wrapper.className = this.config.classes ? this.config.classes : "thin medium bright pre-line";
 		this.getQuotes().then((quoteList) => {
 			if(quoteList.length == 0){
 				return wrapper

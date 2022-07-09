@@ -218,7 +218,7 @@ Module.register("bibleverse", {
 		const bibleVerseTitleLastVerse = document.createElement("i");
 		const bibleVerseList = document.createElement("span");
 
-		wrapper.className = this.config.classes ? this.config.classes : "thin large bright pre-line";
+		wrapper.className = this.config.classes ? this.config.classes : "thin medium bright pre-line";
 		const bibleVerseID = this.randomVerse()
 
 		for (let i=0; i<bibleVerseID.length; i++) {
